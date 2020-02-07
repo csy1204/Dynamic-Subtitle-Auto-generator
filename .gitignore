@@ -1,2 +1,5 @@
 */*.mp4
 backend/data/*.jpg
+backend/__pycache__/*
+backend/__pycache__
+*/.DS_Store
