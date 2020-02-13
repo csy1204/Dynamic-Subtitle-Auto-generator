@@ -22,7 +22,7 @@ def capture_image_in_video(video_path:str, divider:int):
     current_sec = 0
     frame_per_second = math.ceil(cam.get(cv2.CAP_PROP_FPS))
     fps_div = frame_per_second // divider
-    print(f"FPS: {frame_per_second}")
+    print(f"FPS: {frame_per_second}, {fps_div}")
 
     # cam.set(cv2.CAP_PROP_FPS, )
     while (True):
@@ -50,3 +50,5 @@ def capture_image_in_video(video_path:str, divider:int):
     # Release all space and windows once done
     cam.release()
     cv2.destroyAllWindows()
+
+capture_image_in_video('./static/workman2.mp4', 3)
