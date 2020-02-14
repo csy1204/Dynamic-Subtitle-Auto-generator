@@ -51,4 +51,4 @@ def capture_image_in_video(video_path:str, divider:int):
     cam.release()
     cv2.destroyAllWindows()
 
-capture_image_in_video('./static/workman2.mp4', 3)
+# capture_image_in_video('./static/workman2.mp4', 3)

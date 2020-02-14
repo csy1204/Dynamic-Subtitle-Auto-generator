@@ -1,3 +1,4 @@
+backend/.env
 */*.mp4
 backend/static/*.mp4
 backend/static/*

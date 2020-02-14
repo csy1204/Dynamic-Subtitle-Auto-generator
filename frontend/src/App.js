@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
 
-import { Layout, Menu, Breadcrumb, Icon } from 'antd';
+import { Layout, Menu, Icon } from 'antd';
 
 import VideoContainer from './components/VideoContainer'
 
-const { Header, Content, Footer, Sider } = Layout;
+const { Content, Footer, Sider } = Layout;
 const { SubMenu } = Menu;
 
 class SiderDemo extends React.Component {
@@ -26,11 +26,11 @@ class SiderDemo extends React.Component {
           <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline">
             <Menu.Item key="1">
               <Icon type="pie-chart" />
-              <span>Option 1</span>
+              <span>Caption Editor</span>
             </Menu.Item>
             <Menu.Item key="2">
               <Icon type="desktop" />
-              <span>Option 2</span>
+              <span>Caption Generation</span>
             </Menu.Item>
             <SubMenu
               key="sub1"
@@ -67,7 +67,7 @@ class SiderDemo extends React.Component {
           <Content style={{ margin: '16px 16px' }}>
             <VideoContainer />
           </Content>
-          <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
+          <Footer style={{ textAlign: 'center' }}>NAVER AI BURNING DAY ©2020 Created by Sangyeon Cho</Footer>
         </Layout>
       </Layout>
     );
