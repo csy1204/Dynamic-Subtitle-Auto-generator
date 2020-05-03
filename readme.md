@@ -3,7 +3,8 @@
 > 본 프로젝트는 NAVR AI Burning Day 에서 진행한 프로젝트입니다.
 > Clova OCR API를 기반으로 하여 다이내믹한 자막을 생성하고 이를 수정할 수 있습니다.
 
-시연 영상: https://www.youtube.com/watch?v=zkR_4aC83iA
+### 시연 영상: https://www.youtube.com/watch?v=zkR_4aC83iA
+### 발표 자료: [PDF 링크](./OCCR_발표자료.pdf)
 
 ## 1.1 영상 캡쳐
 > 주요 파일: [capture.py](./backend/capture.py)
